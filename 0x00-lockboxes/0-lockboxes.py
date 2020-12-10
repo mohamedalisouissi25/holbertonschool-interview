@@ -2,15 +2,16 @@
 """[boxes]"""
 
 
+
 def canUnlockAll(boxes):
-    """unlock boxes"""
-    if len(boxes) == 1:
+
+    lock_boxes = [0]
+    for box in range(len(boxes)):
+        for key in boxes[box]:
+            if key not in lock_boxes
+                if key != box
+                    if key < len(boxes):
+                    lock_boxes.append(key)
+    if len(lock_boxes) == len(boxes):
         return True
-    lockedboxes = []
-    for box in boxes:
-        for key in box:
-            lockedboxes.append(key)
-    for key in range(len(boxes)):
-        if key in boxes[key] and if lockedboxes.count(key) == 1:
-                return False
-    return True
+    return False
