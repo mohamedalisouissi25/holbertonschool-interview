@@ -4,7 +4,7 @@
 
 def canUnlockAll(boxes):
     """"unlock boxes"""
-    locked_boxes = [0]
+    locked_boxes = []
     for box in boxes:
         for key in box:
             lockedboxes.append(key)
