@@ -27,7 +27,7 @@ int is_palindrome(listint_t **head)
 	--x;
 	y = x / 2;
 
-	for (i = 0; i < y; i++)
+	while (i <= y)
 	{
 		if (tab[i] != tab[x])
 		return (0);
