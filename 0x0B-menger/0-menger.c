@@ -34,7 +34,7 @@ if (level < 0)
 for (a = 0, c = pow(3, level); a < c; a++)
 	{
 	for (b = 0; b < c; b++)
-		if(function(a, b))
+		if (function(a, b))
 		printf("%c", '#');
 		else
 		printf("%c", ' ');
